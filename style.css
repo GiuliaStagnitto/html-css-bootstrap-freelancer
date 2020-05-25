@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  overflow: hidden;
+}
+.row nav{
+  background-color: blue;
+}
+
+[class*="col-"]{
+  border: 1px solid black;
+  height: 80px;
+}
