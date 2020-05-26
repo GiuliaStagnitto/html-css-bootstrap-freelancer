@@ -1,17 +1,59 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.container-fluid{
-  overflow: hidden;
-}
-.row nav{
-  background-color: blue;
-}
+} */
 
 [class*="col-"]{
-  border: 1px solid black;
-  height: 80px;
+  border: none;
+  height: auto;
+}
+
+.row{
+  text-align: center;
+}
+
+section{
+  overflow: hidden;
+  background-color: white;
+}
+.row nav{
+  background-color: darkblue;
+}
+section#jumbo{
+  background-color: #339966;
+}
+section#about{
+  background-color: #339966;
+}
+section#footer{
+  background-color: blue;
+}
+section#copy{
+  background-color: darkblue;
+}
+
+/* sezione about */
+#about{
+  color: #fff;
+}
+#about h1 {
+  font-size: 2em;
+  line-height: 3.5em;
+}
+
+
+/* sezione contatti */
+#contatti h3{
+  font-size: 2em;
+  line-height: 3.5em;
+}
+#contatti .form-group input,
+#contatti .form-group textarea {
+  border: none;
+  border-bottom: solid 1px #ccc;
+  box-shadow: none;
+}
+#contatti .btn-default {
+  color: darkblue;
 }
