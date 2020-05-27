@@ -56,14 +56,22 @@ li a {
   text-align: center;
   background-color: #00cca3;
 }
+#jumbo img{
+  max-width: 80%
+}
+
 #jumbo h1{
   font-size: 3em;
   line-height: 3.5em;
   color:white;
   font-weight: 700;
 }
-#jumbo img{
-  max-width: 80%
+#jumbo p{
+  font-family: sans-serif;
+  font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2em;
+    color: #fff;
 }
 
 
@@ -136,6 +144,7 @@ li a {
   padding: 12px;
   font-size: 20px;
   font-weight: 400;
+  border-color: #fff;
 }
 
 
@@ -161,6 +170,13 @@ li a {
   font-size: 2rem;
     font-weight: 300;
     margin-bottom: 2em;
+}
+#footer i{
+  border-radius: 100%;
+    font-size: 1.5em;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 /* sezione copy */
